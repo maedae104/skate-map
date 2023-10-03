@@ -2339,6 +2339,11 @@
     "@types/qs" "*"
     "@types/serve-static" "*"
 
+"@types/geojson@^7946.0.10":
+  "integrity" "sha512-L7A0AINMXQpVwxHJ4jxD6/XjZ4NDufaRlUJHjNIFKYUFBH1SvOW+neaqb0VTRSLW5suSrSu19ObFEFnfNcr+qg=="
+  "resolved" "https://registry.npmjs.org/@types/geojson/-/geojson-7946.0.11.tgz"
+  "version" "7946.0.11"
+
 "@types/google.maps@3.50.5":
   "integrity" "sha512-RuZf1MJtctGlpW+Gd4a/eGtAufUDjMf+eyN1l+B3fbe2YLScJbg8KEljJfb+6vnSPFAeM1/48geVIEg3vqOkxw=="
   "resolved" "https://registry.npmjs.org/@types/google.maps/-/google.maps-3.50.5.tgz"
@@ -8764,6 +8769,11 @@
   dependencies:
     "find-up" "^3.0.0"
 
+"pod-install@^0.1.39":
+  "integrity" "sha512-0kVvdLYe0CtfJEr+ISvTMxAEB0UF4JMRToPjuu9xAAq1mEqA2Ql5u7uLWX1m45BMM+7NfU4LnBbnfNjmQE9GCw=="
+  "resolved" "https://registry.npmjs.org/pod-install/-/pod-install-0.1.39.tgz"
+  "version" "0.1.39"
+
 "posix-character-classes@^0.1.0":
   "integrity" "sha512-xTgYBc3fuo7Yt7JbiuFxSYGToMoz8fLoE6TC9Wx1P/u+LfeThMOAqmuyECnlBaaJb+u1m9hHiXUEtwW4OzfUJg=="
   "resolved" "https://registry.npmjs.org/posix-character-classes/-/posix-character-classes-0.1.1.tgz"
@@ -9651,7 +9661,14 @@
   "resolved" "https://registry.npmjs.org/react-native-gradle-plugin/-/react-native-gradle-plugin-0.71.13.tgz"
   "version" "0.71.13"
 
-"react-native@^0.71.1":
+"react-native-maps@^1.7.1":
+  "integrity" "sha512-CHVLzL+Q2jiUGgbt4/vosxVI1SukWyaLGjD62VLgR/wZpnH4Umi9ql1bmKDPWcfj2C1QZwMU0Yc7rXTbvZUIiw=="
+  "resolved" "https://registry.npmjs.org/react-native-maps/-/react-native-maps-1.7.1.tgz"
+  "version" "1.7.1"
+  dependencies:
+    "@types/geojson" "^7946.0.10"
+
+"react-native@^0.71.1", "react-native@>= 0.64.3":
   "integrity" "sha512-bLP5+IBj2IX6tgF9WnC/UL2ZPYkVUPsU4xqZV1jntTC2TH4xyLrvfKACjGlz5nQ3Mx4BmOFqsnMxithm53+6Aw=="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.71.1.tgz"
   "version" "0.71.1"
@@ -9774,7 +9791,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=0.13", "react@>=0.14.0", "react@>=15.0.0", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8.0", "react@18.2.0":
+"react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0-rc.1 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 17.0.1", "react@>=0.13", "react@>=0.14.0", "react@>=15.0.0", "react@>=16.14.0", "react@>=16.6.0", "react@>=16.8.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
