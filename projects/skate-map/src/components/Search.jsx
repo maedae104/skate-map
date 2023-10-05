@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function SearchButton() {
 return (
-<Form className="d-flex">
+<Form className="d-flex" >
 <Form.Control
   type="search"
   placeholder="Search"

@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: purple; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,11 @@
   text-align: "center";
 }
 
-body {
-  background-color: black;
+.d-flex {
+  width: 30%;
+  float: right;
 }
+
+/* body {
+   background-color: purple; 
+} */
