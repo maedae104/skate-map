@@ -1,19 +1,15 @@
 import React from "react";
-import SearchButton from "../components/Search";
 import { useState, useEffect, setState } from "react";
 import skategroups from "../Data";
 import SampleMap from "../components/Map.jsx";
 import AddButton from "../components/AddButton";
-import { useHistory } from 'react-router-dom';
-import '../App.css'
+
+import '../assets/App.css'
 
 const groups = skategroups;
 function Main() {
-  const history = useHistory();
-
-  const handleButtonClick = () => {
-    history.push('/add-group'); // Replace '/new-page' with the path you want to navigate to
-  };
+  
+  
   return (
     <>
       <>
@@ -52,7 +48,7 @@ function Main() {
               </h3>
             </div>
             <h3>Add a skate group</h3>
-            <AddButton onClick={handleButtonClick}></AddButton>
+            <AddButton></AddButton>
           </div>
         </>
       </>
